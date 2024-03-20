@@ -2,7 +2,7 @@ import React from 'react';
 import {StatusBar, StyleSheet, View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import HomeScreen from './src/views/Home';
+import HomeScreen from './views/Home';
 
 const Stack = createNativeStackNavigator();
 
